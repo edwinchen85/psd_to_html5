@@ -483,6 +483,56 @@ footer p {
   .dr {
     margin-top: 20px;
   }
+
+  .navbar {
+    overflow: hidden;
+    position: absolute;
+    right: 30px;
+    top: 50px;
+    display: block;
+    z-index: 1000;
+  }
+
+  .burger-nav {
+    background: url(../img/hamburger.png) no-repeat 100% center;
+    display: block;
+    height: 31px;
+    width: 40px;
+    cursor: pointer;
+    float: right;
+    margin-bottom: 10px;
+  }
+
+  .container nav ul {
+    height: 0px;
+    overflow: hidden;
+    background: #282828;
+    border-radius: 5px;
+  }
+
+  .container nav ul.open {
+    height: auto;
+    clear: both;
+  }
+
+  .container nav ul li {
+    float: none;
+    text-align: right;
+    width: auto;
+    margin: 0;
+    display: block;
+  }
+
+  .container nav ul li a {
+    color: white;
+    padding: 10px;
+    display: block;
+    margin: 0;
+  }
+
+  .container nav ul li a:hover {
+     border-color: transparent;
+  }
 }
 
 @media only screen and (max-width: 768px) {
