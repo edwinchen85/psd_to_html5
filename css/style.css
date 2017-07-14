@@ -484,3 +484,23 @@ footer p {
     margin-top: 20px;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .col-4-footer {
+    width: 100%;
+    float: none;
+    margin-top: 0px;
+    font-weight: 400;
+  }
+
+  .footer-logo {
+    margin-bottom: 35px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .cr:after,
+  .me:after {
+    display: none;
+  }
+}
