@@ -437,3 +437,17 @@ footer p {
 .js-wp-3.animated {
   opacity: 1;
 }
+
+
+/*=============================================
+  Media queries
+=============================================*/
+@media only screen and (max-width: 1120px) {
+  .cta-info {
+    padding-right: 40px;
+  }
+
+  .download-info {
+    width: 80%;
+  }
+}
