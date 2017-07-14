@@ -404,3 +404,36 @@ footer p {
   border: 1px solid #555555;
   margin-left: 45px;
 }
+
+
+/*=============================================
+  Animations
+=============================================*/
+.iphone-on {
+  position: absolute;
+  right: 175px;
+  top: 112px;
+  width: 54%;
+}
+
+.iphone-btn {
+  position: absolute;
+  right: 215px;
+}
+
+.js-wp-2 {
+  opacity: 0;
+}
+
+.js-wp-2.animated {
+  opacity: 1;
+}
+
+.js-wp-3 {
+  opacity: 0;
+  animation-delay: 2.2s;
+}
+
+.js-wp-3.animated {
+  opacity: 1;
+}
